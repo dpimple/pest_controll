@@ -1,0 +1,7 @@
+name = "your-project-name"
+type = "javascript"
+
+[build]
+command = "npm run build"
+[site]
+bucket = "./public"
