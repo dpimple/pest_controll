@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.webp'
-import sofa from ''
+import sofa from '../assets/sofa.jpg'
 const Offers = () => {
   return (
     <div className='flex flex-col'>
