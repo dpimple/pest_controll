@@ -5,7 +5,7 @@ import { SiCockroachlabs } from "react-icons/si";
 const Problem = () => {
   return (
     <div className='flex flex-col w-full  items-center justify-center bg-gray-300'>
-      <div className='text-3xl mt-4'>What kind of <span className='font-bold text-3xl'>problem </span>are you having? <span className='font-bold text-2xl'>Select all that apply.</span></div>
+      <div className='text-3xl text-center mt-4'>What kind of <span className='font-bold text-3xl'>problem </span>are you having? <span className='font-bold text-2xl'>Select all that apply.</span></div>
       <div className='flex flex-col m-4  items-center justify-center'>
         <div className='flex flex-row gap-6 '>
           <div className='group flex flex-row items-center justify-evenly bg-white p-1 rounded-3xl pl-2 pr-2 w-48 h-14 hover:border-2 border-red-600'>

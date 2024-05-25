@@ -5,6 +5,7 @@ import NavbarLogo from "~/components/NavbarLogo";
 import NavbarOne from "~/components/NavbarOne";
 import Offers from "~/components/Offers";
 import Problem from "~/components/Problem";
+import Services from "~/components/Services";
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
    <HeroSection/>
    <Problem/>
    <From/>
+   <Services/>
    <Offers/>
    <Footer/>
     </>
