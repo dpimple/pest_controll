@@ -9,7 +9,10 @@ export default {
       },
       backgroundImage: {
         'sofa': "url('./app/assets/sofa.jpg')",
-      }
+      },
+      fontFamily: {
+        'body': ['sans-serif']
+      },
     },
   },
   plugins: [],

@@ -1,12 +1,12 @@
 
-import ReactStars from "react-rating-stars-component";
+
 import '@fortawesome/fontawesome-free/css/all.css';
 const NavbarOne = () => {
   return (
     <>
-    <nav className='flex flex-col md:flex-row w-full md:h-14 h-24 justify-center md:justify-between items-center   bg-gray-800'>
+    <nav className='flex flex-col md:flex-row w-full md:h-14 h-24 justify-center md:justify-between items-center font-body  bg-gray-800 '>
       <div className='flex md:flex-row items-center mb-2 md:mb-0 md:ml-20'><p className="text-white font-bold md:text-lg mr-2">4.4 Star Rating</p>
-      <ReactStars
+      {/* <ReactStars
         count={5}
         value={4.4}
         size={30}
@@ -16,7 +16,7 @@ const NavbarOne = () => {
         fullIcon={<i className="fa fa-star"></i>}
         activeColor="#ffd700"
         edit={false} 
-      />
+      /> */}
     <p className="text-white font-bold md:text-lg ml-2">82 reviews</p>
 </div>
 <div className="flex flex-row md:mr-20">

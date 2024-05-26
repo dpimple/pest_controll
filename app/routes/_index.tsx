@@ -13,9 +13,9 @@ export default function Index() {
    <NavbarOne/>
    <NavbarLogo/>
    <HeroSection/>
-   <Problem/>
+   {/* <Problem/> */}
    <From/>
-   <Services/>
+   <Services/> 
    <Offers/>
    <Footer/>
     </>
